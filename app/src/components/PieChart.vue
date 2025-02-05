@@ -17,6 +17,8 @@ const chartData = reactive({
   ],
 })
 
+const props = defineProps(['data'])
+
 const chartOptions = reactive({
   responsive: true,
   plugins: {
@@ -29,6 +31,7 @@ const chartOptions = reactive({
 
 <template>
   <div>
-    <Pie class="mt-[2rem]" :data="chartData" :options="chartOptions" />
+    <!-- <Pie class="mt-[2rem]" :data="chartData" :options="chartOptions" /> -->
+    <Pie class="mt-[2rem]" :data="props.data" :options="chartOptions" />
   </div>
 </template>

@@ -10,8 +10,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <!-- <HelloWorld msg="You did it!" /> -->
 
     <nav class="m-auto mt-[2rem]">
-      <RouterLink class="p-[2rem]" to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink class="p-[1rem]" to="/">Home</RouterLink>
+      <RouterLink class="p-[1rem]" to="/about">About</RouterLink>
     </nav>
   </header>
 
