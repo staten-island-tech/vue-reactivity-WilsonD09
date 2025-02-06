@@ -2,6 +2,8 @@
   <div></div>
 </template>
 
-<script setup></script>
+<script setup>
+import dailyActivies from '../components/activities'
+</script>
 
 <style scoped></style>

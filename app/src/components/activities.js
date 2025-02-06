@@ -1,0 +1,142 @@
+const dailyActivities = [
+  {
+    name: 'Wake up and Get Ready',
+    category: 'Essentials',
+    image: 'wake-up.jpg',
+    alt: 'Person stretching and getting out of bed',
+  },
+  {
+    name: 'Commute to School',
+    category: 'Travel',
+    image: 'commute.jpg',
+    alt: 'Student on a bus heading to school',
+  },
+  {
+    name: 'Attend Classes',
+    category: 'School',
+    image: 'classroom.jpg',
+    alt: 'Students sitting in a classroom listening to a teacher',
+  },
+  {
+    name: 'Lunch Break',
+    category: 'Essentials',
+    image: 'lunch.jpg',
+    alt: 'A plate of food with a student eating at a cafeteria table',
+  },
+  {
+    name: 'Study Time',
+    category: 'School',
+    image: 'study.jpg',
+    alt: 'Student studying at a desk with books and a laptop',
+  },
+  {
+    name: 'Exercise at the Gym',
+    category: 'Exercise',
+    image: 'exercise.jpg',
+    alt: 'Person lifting weights at the gym',
+  },
+  {
+    name: 'Go for a Walk',
+    category: 'Exercise',
+    image: 'walk.jpg',
+    alt: 'Person walking in a park with trees and a path',
+  },
+  {
+    name: 'Watch TV',
+    category: 'Electronics',
+    image: 'tv.jpg',
+    alt: 'Person sitting on a couch watching television',
+  },
+  {
+    name: 'Use Social Media',
+    category: 'Electronics',
+    image: 'social-media.jpg',
+    alt: 'Person using a smartphone with social media apps open',
+  },
+  {
+    name: 'Play Video Games',
+    category: 'Electronics',
+    image: 'video-games.jpg',
+    alt: 'Person holding a game controller playing a video game',
+  },
+  {
+    name: 'Commute Home',
+    category: 'Travel',
+    image: 'commute-home.jpg',
+    alt: 'Person sitting in a car heading home',
+  },
+  {
+    name: 'Do Homework',
+    category: 'School',
+    image: 'homework.jpg',
+    alt: 'Student writing in a notebook with books on the table',
+  },
+  {
+    name: 'Read a Book',
+    category: 'School',
+    image: 'reading.jpg',
+    alt: 'Person reading a book while sitting in a chair',
+  },
+  {
+    name: 'Have an Afternoon Snack',
+    category: 'Essentials',
+    image: 'snack.jpg',
+    alt: 'A small plate of fruit and crackers with a glass of juice',
+  },
+  {
+    name: 'Do Household Chores',
+    category: 'Essentials',
+    image: 'chores.jpg',
+    alt: 'Person vacuuming the living room floor',
+  },
+  {
+    name: 'Spend Time with Friends',
+    category: 'Essentials',
+    image: 'friends.jpg',
+    alt: 'Group of friends laughing and having fun together',
+  },
+  {
+    name: 'Listen to Music',
+    category: 'Electronics',
+    image: 'music.jpg',
+    alt: 'Person wearing headphones enjoying music',
+  },
+  {
+    name: 'Dinner with Family',
+    category: 'Essentials',
+    image: 'dinner.jpg',
+    alt: 'Family gathered around a table having dinner',
+  },
+  {
+    name: 'Take a Shower',
+    category: 'Essentials',
+    image: 'shower.jpg',
+    alt: 'Person taking a shower with steam visible',
+  },
+  {
+    name: 'Brush Teeth',
+    category: 'Essentials',
+    image: 'brush-teeth.jpg',
+    alt: 'Person brushing their teeth in front of a mirror',
+  },
+  {
+    name: 'Prepare for the Next Day',
+    category: 'Essentials',
+    image: 'prepare-next-day.jpg',
+    alt: 'Person packing their school bag and setting an alarm',
+  },
+  {
+    name: 'Meditate and Relax',
+    category: 'Essentials',
+    image: 'meditation.jpg',
+    alt: 'Person sitting cross-legged in a meditative pose',
+  },
+  {
+    name: 'Go to Sleep',
+    category: 'Sleep',
+    image: 'sleep.jpg',
+    alt: 'Person sleeping peacefully in bed',
+  },
+]
+
+export { dailyActivities }
