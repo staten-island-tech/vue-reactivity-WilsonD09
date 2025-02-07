@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <nav class="m-auto mt-[2rem]">
       <RouterLink class="p-[1rem]" to="/">Home</RouterLink>
-      <RouterLink class="p-[1rem]" to="/about">About</RouterLink>
+      <RouterLink class="p-[1rem]" to="/about">Card</RouterLink>
     </nav>
   </header>
 
