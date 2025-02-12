@@ -2,7 +2,7 @@
 import { reactive } from 'vue'
 import PieChart from '../components/PieChart.vue'
 import DailyActivities from '@/components/DailyActivities.vue'
-import { dayList } from '@/stores/dayList.js'
+import dayList from '@/components/DailyActivities.vue'
 const chartData = reactive({
   labels: ['School', 'Sleep', 'Exercise', 'Electronics', 'Travel', 'Essentials'],
   datasets: [

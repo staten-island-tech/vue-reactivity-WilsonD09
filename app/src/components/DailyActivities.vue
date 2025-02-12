@@ -6,7 +6,7 @@
     <h3>{{ activity.category }}</h3>
     <img :src="activity.picture" :alt="activity.alt" />
     <button
-      @click="addToDay(activity)"
+      @click="addToDay"
       class="mt-[1rem] text-black hover:bg-blue-600 transition p-[1rem] border-black border-[.2rem] rounded-[1rem]"
     >
       Add to Day
@@ -15,17 +15,18 @@
 </template>
 
 <script setup>
-import { dayList } from '@/stores/dayList.js'
+import { defineProps, reactive } from 'vue'
 
 const props = defineProps({
   activity: {
     type: Object,
   },
 })
+const dayList = reactive([])
 
-const addToDay = (activity) => {
-  dayList().push(activity)
-  console.log(`Added ${activity.name} to day`)
+const addToDay = () => {
+  dayList.push(props.activity)
+  console.log(`Added ${props.activity.name} to day`)
   console.log(dayList)
 }
 </script>
