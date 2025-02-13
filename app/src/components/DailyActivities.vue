@@ -15,14 +15,13 @@
 </template>
 
 <script setup>
-import { defineProps, reactive } from 'vue'
+import { dayList } from './dayList'
 
 const props = defineProps({
   activity: {
     type: Object,
   },
 })
-const dayList = reactive([])
 
 const addToDay = () => {
   dayList.push(props.activity)
