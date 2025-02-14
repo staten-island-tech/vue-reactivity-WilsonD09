@@ -20,12 +20,6 @@ import { dayList } from './dayList'
 const props = defineProps({
   activity: Object,
 })
-
-const addToDay = () => {
-  dayList.push(props.activity)
-  console.log(`Added ${props.activity.name} to day`)
-  console.log(dayList)
-}
 </script>
 
 <style scoped></style>
