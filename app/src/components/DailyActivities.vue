@@ -16,6 +16,7 @@
 
 <script setup>
 import { dayList } from './dayList'
+import { time } from './dayList'
 
 const props = defineProps({
   activity: Object,
@@ -26,6 +27,22 @@ const addToDay = () => {
   console.log(`Added ${props.activity.name} to day`)
   console.log(dayList)
 }
+dayList.forEach((day) => {
+  if (day.category === 'School') {
+    time[0] += 1
+  } else if (day.category === 'Sleep') {
+    time[1] += 1
+  } else if (day.category === 'Exercise') {
+    time[2] += 1
+  } else if (day.category === 'Electronics') {
+    time[3] += 1
+  } else if (day.category === 'Travel') {
+    time[4] += 1
+  } else if (day.category === 'Essentials') {
+    time[5] += 1
+  }
+})
+console.log(time)
 </script>
 
 <style scoped></style>

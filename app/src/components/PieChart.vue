@@ -7,16 +7,6 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
 ChartJS.register(ArcElement, Tooltip, Legend)
 
 // Reactive data for the chart
-const chartData = reactive({
-  labels: ['School', 'Sleep', 'Exercise', 'Electronics', 'Travel', 'Essentials'],
-  datasets: [
-    {
-      data: [0, 0, 0, 0, 0, 0], // Example time allocation in hours
-      backgroundColor: ['#FFCE56', '#36A2EB', '#FF6384', '#4BC0C0', '#FFA726', '#BF53FF'],
-    },
-  ],
-})
-
 const props = defineProps(['data'])
 
 const chartOptions = reactive({
