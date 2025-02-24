@@ -27,7 +27,6 @@ function addToDay() {
   console.log(`Added ${props.activity.name} to day`)
   console.log(dayList)
 }
-
 function updateTime() {
   time.fill(0)
   dayList.forEach((day) => {
